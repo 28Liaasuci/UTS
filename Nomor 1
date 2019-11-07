@@ -20,3 +20,23 @@ int main() {
     }
 return 0;
 }
+
+
+float rumus,jumlah,total;
+    cout<<"\n";
+    jumlah=0;
+    total=0;
+    rumus=-1;
+    for(int z=1; z<=n; z++){
+    rumus=(rumus*(-1));
+    total=rumus/z;
+    jumlah= jumlah + total;
+    if(z==1)
+    cout<<"("<<total<<")";
+    if(z>1)
+    cout<<"+("<<total<<")";
+    }
+    cout << "\n hasil perhitungan = " << jumlah;
+    
+    return 0;
+} 
