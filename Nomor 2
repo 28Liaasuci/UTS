@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     
     string nama;
-    int uts,uas,tugas,na,i;
+    int uts,uas,tugas,Nilai_akhir,i;
     for (i=1; i<=20; i++){
         cout << endl;
         cout << endl;
@@ -21,14 +21,14 @@ int main() {
         na = ((uts*30)/100)+((uas*40)/100)+((tugas*30)/100);
         cout << endl;
         cout << "Nama : " << nama << endl;
-        cout << "Nilai akhir : " << na << endl;
-        if(na <70){
+        cout << "Nilai_akhir : " << Nilai_akhir << endl;
+        if(Nilai_akhir <70){
         cout << "Indeks Nilai D";
-        } else if(na >=70 and na < 80){
+        } else if(Nilai_akhir >=70 and Nilai_akhir < 80){
             cout << "Indeks Nilai C";
-        } else if(na >=80 and na < 90){
+        } else if(Nilai_akhir >=80 and Nilai_akhir < 90){
             cout << "Indeks Nilai B";
-        } else if(na >=90){
+        } else if(Nilai_akhir >=90){
             cout << "Indeks Nilai A";
         }
     }
